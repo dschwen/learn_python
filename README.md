@@ -11,3 +11,6 @@ All example python source code in this tutorial is granted to the public domain.
 1. [Hello World](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial1.ipynb)
 2. [Who Goes There?](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial2.ipynb)
 3. [Count to 10](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial3.ipynb)
+4. [Decisions](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial4.ipynb)
+5. [Debugging](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial5.ipynb)
+6. [Defining Functions](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial6.ipynb)
