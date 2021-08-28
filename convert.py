@@ -59,6 +59,7 @@ for line in htmlfile :
             cells.append({"source": tosource(block), "cell_type": "code", "metadata": {}, "outputs": [], "execution_count": None})
             incode = False
             block = []
+        block.append(line[len('</PRE>'):])
         continue
 
     # preprocess code
