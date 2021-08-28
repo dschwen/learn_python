@@ -14,3 +14,6 @@ All example python source code in this tutorial is granted to the public domain.
 4. [Decisions](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial4.ipynb)
 5. [Debugging](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial5.ipynb)
 6. [Defining Functions](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial6.ipynb)
+7. [Lists](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial7.ipynb)
+8. [For Loops](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial8.ipynb)
+9. [Boolean Expressions](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial9.ipynb)

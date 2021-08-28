@@ -50,8 +50,7 @@ for line in htmlfile :
 
             incode = True
             block = []
-        block.append(line[len('<PRE>'):])
-        continue
+        line = line[len('<PRE>'):]
 
     # end of a code block
     if line[:len('</PRE>')] == '</PRE>' :
@@ -59,13 +58,15 @@ for line in htmlfile :
             cells.append({"source": tosource(block), "cell_type": "code", "metadata": {}, "outputs": [], "execution_count": None})
             incode = False
             block = []
-        block.append(line[len('</PRE>'):])
-        continue
+        line = line[len('</PRE>'):]
 
-    # preprocess code
     if incode :
-       line = line.replace('&gt;', '>')
-       line = line.replace('&lt;', '<')
+        # preprocess code
+        line = line.replace('&gt;', '>')
+        line = line.replace('&lt;', '<')
+    else:
+        # preprocess text
+        line = line.replace('`', "'")
 
     # add regular text
     block.append(line)
