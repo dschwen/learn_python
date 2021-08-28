@@ -20,3 +20,6 @@ All example python source code in this tutorial is granted to the public domain.
 10. [Dictionaries](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial10.ipynb)
 11. [Using Modules](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial11.ipynb)
 12. [More on Lists](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial12.ipynb)
+13. [Revenge of the Strings](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial13.ipynb)
+14. [File IO](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial14.ipynb)
+15. [Dealing with the imperfect (or how to handle errors)](https://mybinder.org/v2/gh/dschwen/learn_python/HEAD?filepath=tutorial15.ipynb)
